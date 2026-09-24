@@ -91,6 +91,7 @@ jobs:
         env:
           CHANGED_FILES: ${{ needs.changed-pages.outputs.files }}
         with:
+          github-token: ${{ secrets.CKT_BOT_READONLY }}
           script: |
             const fs = require('fs');
             const path = require('path');
