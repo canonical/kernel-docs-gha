@@ -20,8 +20,9 @@ jobs:
         uses: tj-actions/changed-files@v45
         with:
           files: |
-            pages/**/*.md
-            pages/**/*.rst
+            docs/*.md
+            docs/**/*.md
+            docs/**/*.rst
 
   validate-owners:
     needs: changed-pages
