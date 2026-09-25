@@ -17,6 +17,8 @@ non-disruptive to users.
 This document aims to provide an overview about the various aspects of the
 Ubuntu kernel SRU process.
 
+Making a change.
+
 ## SRU purpose
 
 Kernel SRU focuses on delivering necessary updates without changing core
