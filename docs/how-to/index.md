@@ -9,6 +9,8 @@ myst:
 These guides accompany through the various stages of building and publishing
 kernel packages and components.
 
+No owner testing.
+
 ```{toctree}
 :titlesonly:
 :maxdepth: 1
